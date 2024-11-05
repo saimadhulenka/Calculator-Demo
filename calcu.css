@@ -1,0 +1,60 @@
+input[type="text"]
+{
+    width: 100%;
+    height: 13vh;
+    padding-left: 5%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    border: 3px solid rgb(183, 77, 77)
+}
+#fill
+{
+    border: 1px solid black;
+    background-color: rgb(124, 126, 128);
+    border-radius: 10px;
+}
+#layout
+{
+    border: none;
+}
+
+button
+{
+    width: 100%;
+    padding: 10%;
+    margin: 1%;
+    font-size: 150%;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+tr,td
+{
+    width: 10%;
+    background-color: rgb(146, 146, 146);
+    text-align: center;
+    padding: 1%;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+#del
+{
+    background-color: rgb(254, 112, 112);
+}
+#AC
+{
+    background-color: rgb(247, 169, 74);
+
+}
+#eql
+{
+    background-color: rgb(107, 190, 109);
+    font-size: 18px;
+}
+button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
